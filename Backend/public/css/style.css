@@ -15,3 +15,38 @@
 .nav-link{
     color:#222222 !important;
 }
+
+.f-info-links a{
+    text-decoration:none;
+    color: black;
+
+}
+
+.f-info-links a:hover{
+    text-decoration:underline;
+    color: black;
+
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: center;
+    text-align: center;
+
+
+}
